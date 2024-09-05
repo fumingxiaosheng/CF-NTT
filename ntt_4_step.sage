@@ -1,4 +1,4 @@
-#计算a*b mod Zq/x^n+1
+#计算a*b mod Zq/x^n+1 1
 def polymul(a, b, n, q):
     assert(len(a) == len(b) == n)
     Zq = GF(q)
